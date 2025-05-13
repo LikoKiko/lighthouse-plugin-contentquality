@@ -1,0 +1,35 @@
+{
+    "name": "lighthouse-plugin-contentquality",
+    "version": "1.0.0",
+    "description": "Lighthouse plugin (analyze content quality metrics for SEO and user experience)",
+    "main": "plugin.js",
+    "scripts": {
+      "test": "jest",
+      "lint": "eslint ."
+    },
+    "keywords": [
+      "lighthouse",
+      "lighthouse-plugin",
+      "seo",
+      "contentquality",
+      "readability"
+    ],
+    "author": "LikoKiko",
+    "license": "MIT",
+    "engines": {
+      "node": ">=24.0.0"
+    },
+    "dependencies": {
+      "lighthouse": "^12.6.0",
+      "flesch-kincaid": "^2.0.1",
+      "readability-scores": "^1.0.8"
+    },
+    "devDependencies": {
+      "eslint": "^9.26.0",
+      "jest": "^29.7.0"
+    },
+    "peerDependencies": {
+      "lighthouse": "^12.6.0"
+    }
+  }
+  
